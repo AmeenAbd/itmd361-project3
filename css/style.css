@@ -1,0 +1,155 @@
+body{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  position: relative;
+  background-size: 400% 400%;
+  animation: change 10s ease-in-out infinite;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+}
+
+p{
+  font-size: 1.1em;
+}
+
+.page{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+
+.navigation{
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+  text-align: center;
+  display: block;
+  margin: 0;
+}
+
+.navigation ul{
+  list-style-type: none;
+  padding: 5px 0 0 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.navigation ul li{
+  height: 100%;
+  padding-left: 20px;
+  float: left;
+}
+
+.navigation ul > li:first-child{
+  padding-left: 0;
+}
+
+.navigation ul li a{
+  color: #fff;
+  font-size: 1.1em;
+  border-radius: 50px;
+  padding: 15px 30px;
+  background-color: #23A6D5;
+  display: block;
+  text-decoration: none;
+}
+
+.navigation ul li a:hover{
+  background-color: #E73C7E;
+
+}
+
+@keyframes change{
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+}
+
+h1{
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 5px 0;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  background-color: lightblue;
+  color: #fff;
+  font-size: 2.5em;
+}
+
+h3{
+  font-size: 1.5em;
+  font-family: 'Lato', sans-serif;
+  border-radius: 10px;
+  padding: 5px;
+  width: fit-content;
+  border: 3px solid #fff;
+}
+
+
+h4{
+  font-family: 'Lato', sans-serif;
+  font-size: 1.3em;
+}
+
+#onpage a{
+  background-color: #E73C7E;
+}
+
+.float_right{
+  float: right;
+  width: 200px;
+  height: 170px;
+  padding: 10px;
+}
+
+.clear{
+  clear: both;
+}
+
+#resume{
+  border: 3px solid #EE7752;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+#projects h1{
+  color: #E73C7E;
+}
+
+#projects h3{
+  border-color: #E73C7E;
+}
+
+#index h1{
+  color: #EE7752;
+}
+
+#index h3{
+  border-color: #EE7752;
+}
+
+#index p, ul{
+  margin: 5px;
+}
+
+#about_me h1{
+  color: #23D5AB;
+}
+
+#about_me h3{
+  border-color: #23D5AB;
+}
