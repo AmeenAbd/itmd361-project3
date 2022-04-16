@@ -232,3 +232,12 @@ h4{
 #about_me h3{
   border-color: #23D5AB;
 }
+
+
+.slideshow {
+	max-width: 600px;
+	margin: 0 auto;
+}
+.slideshow ul {
+	margin:0;
+}
